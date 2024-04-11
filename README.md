@@ -10,7 +10,7 @@ Sign up link is coming up on Eventbrite soon!
 * Where: University College London, Room B02 in [Chandler House](https://www.ucl.ac.uk/pals/contact/how-find-chandler-house), 2 Wakefield St, London WC1N 1PF
 
 The hackathon is for improving Harmony in general and we would like help especially with
-* PDF parsing
+* [Task 1: PDF parsing](./1-pdf-parsing.md)
 * matching items by semantic similarity
 * experimenting with LLMs
 * adapting Harmony to other domains such as medical history or Informed Consent Forms
