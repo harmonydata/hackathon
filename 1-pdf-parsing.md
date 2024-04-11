@@ -1,4 +1,4 @@
-# Problem 1. PDF parsing
+# Task 1. PDF parsing
 
 Address and fix issues related to processing PDFs within Harmony, as identified in the Kaggle competition. Improve PDF handling for more seamless integration. Handle Excels and Word docs.
 
