@@ -14,6 +14,8 @@ The objective is to build upon Harmony's existing technology to create a more ef
 
 ## Resources and References
 
+Issue: https://github.com/harmonydata/harmony/issues/11
+
 Try our Kaggle competition: https://www.kaggle.com/competitions/harmony-pdf-and-word-questionnaires-extract-v2
 
 Github repo for PDF parsing: https://github.com/harmonydata/pdf-questionnaire-extraction
