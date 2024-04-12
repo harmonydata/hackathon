@@ -12,6 +12,12 @@ Demo of Harmony's Functionality: For a better understanding of what we aim to ac
 
 The objective is to build upon Harmony's existing technology to create a more efficient, accurate, and robust tool for extracting questionnaire questions from a variety of documents. Participants are encouraged to innovate and develop solutions that can handle a wide range of document formats and structures.
 
+## Data
+
+We have lots of example PDFs, together with the ground truths (what questions should be extracted), here:
+
+https://github.com/harmonydata/pdf-questionnaire-extraction/tree/main/data
+
 ## Resources and References
 
 Issue: https://github.com/harmonydata/harmony/issues/11
