@@ -12,7 +12,7 @@ Sign up link is coming up on Eventbrite soon!
 The hackathon is for improving Harmony in general and we would like help with a number of areas - your team could pick one or choose your own!
 
 * [Task 1: PDF parsing](./1-pdf-parsing.md)
-* matching items by semantic similarity
+* [Task 2: Improve matching of items by semantic similarity](./2-matching.md)
 * experimenting with LLMs
 * adapting Harmony to other domains such as medical history or Informed Consent Forms
 * Making Harmony multilingual
