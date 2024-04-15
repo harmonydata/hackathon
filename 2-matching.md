@@ -14,7 +14,7 @@ So how can we improve the matching?
 We could
 
 * try different LLMs from HuggingFace
-* add integration to OpenAI or Vertex
+* add integration to OpenAI or Vertex (OpenAI example: https://github.com/harmonydata/matching/blob/main/03_ada3.py  Vertex example: https://github.com/harmonydata/matching/blob/main/06_google_vertex_ai_gecko_multilingual.py)
 * run Tensorflow JS model in the front end (https://github.com/tensorflow/tfjs-models Universal Sentence Encoder) 
 
 Check the code samples here for data and examples: https://github.com/harmonydata/matching 
