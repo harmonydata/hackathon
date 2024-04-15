@@ -1,5 +1,12 @@
 # Task 2: Improve the matching algorithm
 
+## Related issues:
+
+* https://github.com/harmonydata/app/issues/14
+* https://github.com/harmonydata/app/issues/15
+* https://github.com/harmonydata/harmonyapi/issues/4
+* https://github.com/harmonydata/harmony/issues/22
+  
 Harmony often matches items that should not be matched, or vice versa, e.g.
 
 *Feeling tired or having little energy?* was incorrectly matched to *Having upsetting dreams that replay part of the experience or are clearly related to the experience?*
@@ -23,7 +30,7 @@ Check this blog post too: https://harmonydata.ac.uk/measuring-the-performance-of
 
 ## Data
 
-We have been evaluating the matching using the manually created harmonisation tool by McElroy et al:
+We have been evaluating the matching using the manually created harmonisation tool by McElroy et al. So where human annotators considered two items to be similar and Harmony also did, it gets points. Where Harmony disagreed with human annotators it scores lower. Here is the evaluation dataset in Excel form, which is used in the `matching` repository:
 
 https://github.com/harmonydata/harmony_original/blob/main/data/Final%20harmonised%20item%20tool%20EM.xlsx
 
