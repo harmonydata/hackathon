@@ -18,11 +18,11 @@ So how can we improve the matching?
 * Probably the easiest way would be to switch this underlying model, rather than trying anything clever.
 * Longer term an LLM could be fine-tuned but that needs lots of resources and lots of data!
 
-We could
+There are three ways you could run an LLM:
 
-* try different LLMs from HuggingFace
-* add integration to OpenAI or Vertex (OpenAI example: https://github.com/harmonydata/matching/blob/main/03_ada3.py  Vertex example: https://github.com/harmonydata/matching/blob/main/06_google_vertex_ai_gecko_multilingual.py)
-* run Tensorflow JS model in the front end (https://github.com/tensorflow/tfjs-models Universal Sentence Encoder) 
+1. run an LLM on a server. For example, we can try different LLMs from HuggingFace Sentence Transformers
+2. Add integration to OpenAI or Vertex (OpenAI example: https://github.com/harmonydata/matching/blob/main/03_ada3.py  Vertex example: https://github.com/harmonydata/matching/blob/main/06_google_vertex_ai_gecko_multilingual.py). This has the advantage that we don't need a server, but the disadvantage that we need to pay for the API key, and the third parties like OpenAI change their APIs quite frequently.
+3. Run the LLM in the browser (on client side). Tensorflow JS model in the front end (https://github.com/tensorflow/tfjs-models Universal Sentence Encoder). I have a demo of TensorFlow JS Sentence Transformer here: https://fastdatascience.com/semantic-similarity-with-sentence-embeddings/
 
 Check the code samples here for data and examples: https://github.com/harmonydata/matching 
 
