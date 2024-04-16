@@ -27,6 +27,8 @@ Ideas of the problems that we will be solving are here: https://harmonydata.ac.u
 
 You can use Windows, Linux or Mac
 
+🎬[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g) · 🎬 [Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg)
+
 * Clone the repository 
 * Install Python 3.11
 * Install Pycharm
@@ -35,10 +37,6 @@ You can use Windows, Linux or Mac
 
 * We recommend Anaconda and Jupyter Notebook
 * Then you can do `pip install harmonydata`
-
-[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g)
-
-[Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg)
 
 # Pushes and commits
 
