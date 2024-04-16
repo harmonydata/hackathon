@@ -15,10 +15,37 @@ The hackathon is for improving Harmony in general and we would like help with a 
 * [Task 2: Improve matching of items by semantic similarity](./2-matching.md)
 * [Task 3: Experimenting with LLMs](./3-add-llms.md)
 * [Task 4: adapting Harmony to other domains such as medical history or Informed Consent Forms](./4-other-domains.md)
-* Making Harmony multilingual
-* Getting Likert scales out of documents
-* Making a similarity score between instruments using the Word Movers Distance algorithm
+* [Task 5: Making Harmony multilingual](./5-multilingual.md)
+* [Task 6: Getting Likert scales out of documents](./6-likert.md)
+* [Task 7: Making a similarity score between instruments using the Word Movers Distance algorithm](./7-similarity.md)
 * Plus any ideas you might have!
 
 Ideas of the problems that we will be solving are here: https://harmonydata.ac.uk/ideas 
 
+
+# Installing Harmony
+
+You can use Windows, Linux or Mac
+
+* Clone the repository 
+* Install Python 3.11
+* Install Pycharm
+* Install Jupyter Notebooks
+* Run the [example Colab notebook](https://colab.research.google.com/github/harmonydata/harmony/blob/main/Harmony_example_walkthrough.ipynb)
+
+* We recommend Anaconda and Jupyter Notebook
+* Then you can do `pip install harmonydata`
+
+[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g)
+
+[Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg)
+
+# Pushes and commits
+
+* Please use PEP-8 Linter
+* Please run unit tests before pushing
+* Check your PR hasn’t got any extra files made by your IDE that shouldn’t be committed, such as .vscode
+
+# At the end of the hackathon
+
+Please fill out our feedback form at the end of the session: https://forms.gle/WSXaoDiWu7XF8oKr5
