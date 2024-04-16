@@ -1,6 +1,6 @@
 # Task 2: Improve the matching algorithm
 
-This task is closely related to Task 3: add other LLMs to Harmony
+This task is closely related to [Task 3: add other LLMs to Harmony](./3-add-llms.md)
 
 ## Related issues:
 
@@ -17,7 +17,5 @@ We have a Github repo where we have experimented with this: https://github.com/h
 
 So how can we improve the matching? 
 
-* Probably the easiest way would be to switch this underlying model, rather than trying anything clever.
+* Probably the easiest way would be to switch this underlying model, rather than trying anything clever. See also [Task 3: add other LLMs to Harmony](./3-add-llms.md)
 * Longer term an LLM could be fine-tuned but that needs lots of resources and lots of data!
-
-
