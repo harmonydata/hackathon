@@ -25,23 +25,29 @@ Ideas of the problems that we will be solving are here: https://harmonydata.ac.u
 
 # Installing Harmony
 
-You can use Windows, Linux or Mac
+You can use Windows, Linux or Mac. We have made some videos to help you install Python and Harmony:
 
 🎬[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g) · 🎬 [Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg)
 
-* Clone the repository 
+Here are the steps to get started:
+
+* First clone the repository from Git. If you're not familiar with Git and Github, we recommend you watch a tutorial on Git first (example: https://www.youtube.com/watch?v=USjZcfj8yxE)
 * Install Python 3.11
 * Install Pycharm
 * Install Jupyter Notebooks
 * Run the [example Colab notebook](https://colab.research.google.com/github/harmonydata/harmony/blob/main/Harmony_example_walkthrough.ipynb)
 
 * We recommend Anaconda and Jupyter Notebook
-* Then you can do `pip install harmonydata`
+* Then you can do `pip install harmonydata` to install Harmony once Python has been installed.
 
 # Pushes and commits
 
+We try to keep our code clean and consistent. If one person uses spaces and another uses tabs, it's hard to manage it and keep track of code changes. Please follow the general principles for consistency.
+
+When developing and pushing changes,
+
 * Please use PEP-8 Linter
-* Please run unit tests before pushing
+* Please run unit tests before pushing. We use test driven development. That means that every commit gets tested automatically by Github and will get a green tick or red cross if the tests pass or fail.
 * Check your PR hasn’t got any extra files made by your IDE that shouldn’t be committed, such as .vscode
 
 # At the end of the hackathon
