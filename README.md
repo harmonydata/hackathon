@@ -13,8 +13,8 @@ The hackathon is for improving Harmony in general and we would like help with a 
 
 * [Task 1: PDF parsing](./1-pdf-parsing.md)
 * [Task 2: Improve matching of items by semantic similarity](./2-matching.md)
-* experimenting with LLMs
-* adapting Harmony to other domains such as medical history or Informed Consent Forms
+* [Task 3: Experimenting with LLMs](./3-add-llms.md)
+* [Task 4: adapting Harmony to other domains such as medical history or Informed Consent Forms](./4-other-domains.md)
 * Making Harmony multilingual
 * Getting Likert scales out of documents
 * Making a similarity score between instruments using the Word Movers Distance algorithm
