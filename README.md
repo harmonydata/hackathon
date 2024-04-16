@@ -18,7 +18,7 @@ The hackathon is for improving Harmony in general and we would like help with a 
 * [Task 5: Making Harmony multilingual](./5-multilingual.md)
 * [Task 6: Getting Likert scales out of documents](./6-likert.md)
 * [Task 7: Making a similarity score between instruments using the Word Movers Distance algorithm](./7-similarity.md)
-* Plus any ideas you might have! We have some UX issues that could be fixed - see [UX testing report](./UX Notes on Harmony Tool.pdf).
+* Plus any ideas you might have! We have some UX issues that could be fixed - see [UX testing report](./UX%20Notes%20on%20Harmony%20Tool.pdf).
 
 Ideas of the problems that we will be solving are here: https://harmonydata.ac.uk/ideas 
 
