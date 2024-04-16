@@ -1,4 +1,4 @@
-## Harmony is planning a hackathon!
+# Harmony is planning a hackathon!
 
 We are planning a hackathon in London on 3 June. Sign up and we will contact you with the details!
 
