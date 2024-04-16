@@ -27,7 +27,7 @@ Ideas of the problems that we will be solving are here: https://harmonydata.ac.u
 
 You can use Windows, Linux or Mac. We have made some videos to help you install Python and Harmony:
 
-🎬[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g) · 🎬 [Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg)
+🎬[Video for Windows](https://www.youtube.com/watch?v=Okk8tUMDr6g) · 🎬 [Video for Linux/Mac](https://www.youtube.com/watch?v=enWh0-4I0Sg) · 🎬 [Video on how to install the front end locally](https://youtu.be/1xp3Uh6dptg)
 
 Here are the steps to get started:
 
