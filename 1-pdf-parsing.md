@@ -27,3 +27,5 @@ Try our Kaggle competition: https://www.kaggle.com/competitions/harmony-pdf-and-
 Github repo for PDF parsing: https://github.com/harmonydata/pdf-questionnaire-extraction
 
 Code Repository: Participants may find it beneficial to explore Harmony's existing code repository related to PDF processing. This can serve as a starting point or reference for developing their solutions. The repository is available at (Harmony GitHub Repository.) and https://github.com/harmonydata/pdf-questionnaire-extraction
+
+You might also find lists like this useful: https://ipip.ori.org/AlphabeticalItemList.htm
