@@ -46,9 +46,9 @@ We try to keep our code clean and consistent. If one person uses spaces and anot
 
 When developing and pushing changes,
 
-* Please use PEP-8 Linter
-* Please run unit tests before pushing. We use test driven development. That means that every commit gets tested automatically by Github and will get a green tick or red cross if the tests pass or fail.
-* Check your PR hasn’t got any extra files made by your IDE that shouldn’t be committed, such as .vscode
+* Please use [PEP-8 Linter](https://pypi.org/project/pep8/) - this is a set of rules of how many whitespace characters are allowed in a line, and in general provides consistency for formatting of human readable code and comments. If everyone formats their code differently, things become hard to manage as it's hard to track if a change is a functional change, or a formatting change. Imagine if a newspaper article switched between British and American spelling every sentence and between formal tone and textspeak! Let's keep things consistent!
+* Please run unit tests before pushing. We use test driven development. That means that every commit gets tested automatically by Github and will get a green tick or red cross if the tests pass or fail. All the repos have tests in a folder called `tests` and you can run them on your computer and Github actions will run them when you commit. They will tell you if you break any functionality.
+* Check your PR hasn’t got any extra files made by your IDE that shouldn’t be committed, such as .vscode. It's a common mistake for beginners to bulk commit the entire contents of a directory including files which are not part of the project. For example, Mac puts extra hidden files inside folders when you open them in the file browser. Try not to let them clutter our code base. They make code hard to manage and in some cases can break the tool.
 
 # At the end of the hackathon
 
