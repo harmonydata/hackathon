@@ -19,3 +19,22 @@ So how can we improve the matching?
 
 * Probably the easiest way would be to switch this underlying model, rather than trying anything clever. See also [Task 3: add other LLMs to Harmony](./3-add-llms.md)
 * Longer term an LLM could be fine-tuned but that needs lots of resources and lots of data!
+
+
+## Explicit user feedback on the web UI
+
+You will notice that on the web UI there are options for users to tag a harmonisation as incorrect.
+
+We store this data. I exported it on 18 April 2024. Maybe we can use this data to improve the tool?
+
+All saved harmonisations
+
+https://harmonyapistorage.z33.web.core.windows.net/harmonisations.json
+
+All mismatches tagged by users in the web UI:
+
+https://harmonyapistorage.z33.web.core.windows.net/mismatches.json
+
+All user ratings:
+
+https://harmonyapistorage.z33.web.core.windows.net/ratings.json
