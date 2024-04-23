@@ -1,5 +1,7 @@
 # Harmony is planning a hackathon!
 
+* [FAQs here](./FAQs.md)
+
 We are planning a hackathon in London on 3 June. Sign up and we will contact you with the details!
 
 In the meantime, feel free to join our [community](https://harmonydata.ac.uk/community) on Discord, check out the [ideas list](/ideas) and try our [Kaggle competition](https://harmonydata.ac.uk//kaggle)!
