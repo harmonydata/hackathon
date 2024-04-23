@@ -2,11 +2,11 @@
 
 * [FAQs here](./FAQs.md)
 
-We are planning a hackathon in London on 3 June. Sign up and we will contact you with the details!
+We are planning a hackathon in London on 3 June. [You can sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)!
 
 In the meantime, feel free to join our [community](https://harmonydata.ac.uk/community) on Discord, check out the [ideas list](/ideas) and try our [Kaggle competition](https://harmonydata.ac.uk//kaggle)!
 
-Sign up link is coming up on Eventbrite soon!
+[Sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)
 
 * When: 3 June 2024, registration starts at 9:00 am
 * Where: University College London, Room B02 in [Chandler House](https://www.ucl.ac.uk/pals/contact/how-find-chandler-house), 2 Wakefield St, London WC1N 1PF
