@@ -1,6 +1,7 @@
 # Harmony is planning a hackathon!
 
 * [FAQs here](./FAQs.md)
+* [Judging criteria (mark scheme)](./judging-criteria.md)
 
 We are planning a hackathon in London on 3 June. [You can sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)!
 
