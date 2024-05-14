@@ -2,6 +2,8 @@
 
 * [FAQs here](./FAQs.md)
 * [Judging criteria (mark scheme)](./judging-criteria.md)
+* [Developer guide](https://harmonydata.ac.uk/developer-guide/)
+* [Guide on contributing to Harmony](https://harmonydata.ac.uk/contributing-to-harmony/)
 
 We are planning a hackathon in London on 3 June. [You can sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)!
 
