@@ -29,3 +29,9 @@ Github repo for PDF parsing: https://github.com/harmonydata/pdf-questionnaire-ex
 Code Repository: Participants may find it beneficial to explore Harmony's existing code repository related to PDF processing. This can serve as a starting point or reference for developing their solutions. The repository is available at (Harmony GitHub Repository.) and https://github.com/harmonydata/pdf-questionnaire-extraction
 
 You might also find lists like this useful: https://ipip.ori.org/AlphabeticalItemList.htm
+
+
+## Work done so far
+
+We have a partially completed branch with updated PDF model: https://github.com/Notysoty/harmony/tree/updated_files_for_forntend but it needs work to complete it.
+
