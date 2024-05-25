@@ -35,3 +35,4 @@ You might also find lists like this useful: https://ipip.ori.org/AlphabeticalIte
 
 We have a partially completed branch with updated PDF model: https://github.com/Notysoty/harmony/tree/updated_files_for_forntend but it needs work to complete it.
 
+The training scripts are here: https://github.com/harmonydata/pdf-text-models-amol
