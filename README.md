@@ -27,6 +27,10 @@ The hackathon is for improving Harmony in general and we would like help with a 
 
 Ideas of the problems that we will be solving are here: https://harmonydata.ac.uk/ideas 
 
+# Videos about Harmony
+
+Short demo: https://www.youtube.com/watch?v=cEZppTBj1NI
+Presentation at Melbourne Children's LifeCourse Initiative seminar: https://www.youtube.com/watch?v=ZPY-fPsVIE4
 
 # Installing Harmony
 
@@ -58,3 +62,5 @@ When developing and pushing changes,
 # At the end of the hackathon
 
 Please fill out our feedback form at the end of the session: https://forms.gle/WSXaoDiWu7XF8oKr5
+
+
