@@ -27,6 +27,7 @@ The hackathon is for improving Harmony in general and we would like help with a 
 
 Other ideas requested by research psychologists: can we add to the export, groups of similar items? E.g. everything to do with height across 5 studies? Perhaps this could also be another view in the visualisation in the tool.
 
+![./find_variable.png](./find_variable.png)
 
 # Videos about Harmony
 
