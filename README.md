@@ -29,6 +29,11 @@ Other ideas requested by research psychologists: can we add to the export, group
 
 ![./find_variable.png](./find_variable.png)
 
+# Difficulty cloning?
+
+Because we don't want you to spend all day having trouble with Git if you're not familiar with Git, you can download the already cloned source code from here: https://harmonyapistorage.z33.web.core.windows.net/harmonyapi.zip
+
+
 # Videos about Harmony
 
 Short demo: https://www.youtube.com/watch?v=cEZppTBj1NI
