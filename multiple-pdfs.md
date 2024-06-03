@@ -22,18 +22,20 @@ Using the current design of the website (see visual below), here are our thought
 
 With the design above, we thought we could add more filters such as:
 - Sorting by the study (or PDF)
-- Search (same functionality)
-- Other (search for other related topics around that word)
+- Search keyword
+- Correlation filter
 
 We believe that the "Show within-instrument matches" could be reworded in a way that is more understandable to the lay-user of the web application.
 
 We also believe that the other functionalities provided by this widget is useful and should remain the same.
 
 #### Sorting by the study (or PDF)
+In this feature, the end user can choose the base PDF to compare the other PDFs to. We imagine that this would be a dropdown menu showing the PDFs the user has uploaded to harmony.
 
-#### Search (same functionality)
+#### Search Keyword
+In this filter, we imagine that the end user can start typing a word that they would like to look for in the matches and be able to see matches related to that word. 
 
-#### Other (search for other related topics around that word)
+#### Correlation Filter
 
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
