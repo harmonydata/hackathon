@@ -1,9 +1,10 @@
 # Harmony Matching Design Documentation
 - Harmony competition: 03/06/2024
 - Team name: Anomalies
+- Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), Suqin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
 
 ## Problem
-Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are looking into the possibility to expand this and think about how we would design how this would look like for 3 pages (and hopefully more in the future). Please be sure to scroll to the end of this README file to view an image of our design for our solution to handling more than 2 PDFs at a time (see Summary).
+Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are looking into the possibility to expand this and think about how we would design how this would look like for 3 pages (and hopefully more in the future). Please be sure to scroll to the end of this README file to view an image of our design for our solution to handling more than 2 PDFs at a time (see "Comprehending Harmony: The Complete Picture").
 
 In order to make finding similarities between 3 PDFs, we considered the approach of sorting these matches using 1 core PDF which is compared to the other 2 PDFs. For example, if we were to have 3 PDFs (labelled A, B and C respectively), we would be using A as the core PDF and finding similarities in B and C that correlate to A. Which would translate to something like this: 
 
@@ -82,7 +83,7 @@ This feature could then expand on the existing functionality (see below) and add
 - Consider how it looks and optimises on mobile
 - Consider type of filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
 
-## Summary
+## Comprehending Harmony: The Complete Picture
 Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 2 PDFs at a time
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
