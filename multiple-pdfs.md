@@ -3,7 +3,7 @@
 - Team name: Anomalies
 
 ## Problem
-Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are looking into the possibility to expand this and think about how we would design how this would look like for 3 pages (and hopefully more in the future).
+Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are looking into the possibility to expand this and think about how we would design how this would look like for 3 pages (and hopefully more in the future). Please be sure to scroll to the end of this README file to view an image of our design for our solution to handling more than 2 PDFs at a time (TL;DR).
 
 In order to make finding similarities between 3 PDFs, we considered the approach of sorting these matches using 1 core PDF which is compared to the other 2 PDFs. For example, if we were to have 3 PDFs (labelled A, B and C respectively), we would be using A as the core PDF and finding similarities in B and C that correlate to A. Which would translate to something like this: 
 
