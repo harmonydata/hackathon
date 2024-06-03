@@ -29,6 +29,12 @@ We believe that the "Show within-instrument matches" could be reworded in a way 
 
 We also believe that the other functionalities provided by this widget is useful and should remain the same.
 
+#### Sorting by the study (or PDF)
+
+#### Search (same functionality)
+
+#### Other (search for other related topics around that word)
+
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
 
