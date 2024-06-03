@@ -12,3 +12,6 @@ Using the current design of the website (see visual below), here are our thought
 ![image](https://github.com/nlutala/hackathon/assets/87072306/d5ed60c6-8e45-4dce-8610-78eb4b18c17a)
 
 ### Harmony Filters
+![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
+
+With the design above...
