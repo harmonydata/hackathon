@@ -15,7 +15,13 @@ Using the current design of the website (see visual below), here are our thought
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
 With the design above, we thought we could add more filters such as:
-- ...
+- Sorting by the study (or PDF)
+- Search (same functionality)
+- Other (search for other related topics around that word)
+
+We believe that the "Show within-instrument matches" could be reworded in a way that is more understandable to the lay-user of the web application.
+
+We also believe that the other functionalities provided by this widget is useful and should remain the same.
 
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
