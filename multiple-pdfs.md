@@ -34,7 +34,6 @@ Here is how we would imagine the new widget would look like:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
 
-
 #### Sorting by the study (or PDF)
 In this feature, the end user can choose the base PDF to compare the other PDFs to. We imagine that this would be a dropdown menu showing the PDFs the user has uploaded to harmony.
 
@@ -76,6 +75,14 @@ This is a new feature we thought that could be added to Harmony's functionality.
 This feature could then expand on the existing functionality (see below) and add a second option to allow users to report if there is not a correlation between these ideas.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a4563d27-abf3-47b3-b151-a9a3a1c3bfd2)
+
+We also thought it would be a good idea to make use of Harmony's ability to extract topics from PDFs as demonstrated below
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/64ea73c4-0e26-4ea8-8851-7adb45e177ee)
+
+by extending this to create a dropdown list to further filter matches based on these topics for complementary matches (see image below)
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/9aca41c1-354b-46c2-8fbc-b68779c18004)
 
 ## Limitations
 - Limited and biased sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
