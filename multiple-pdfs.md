@@ -80,7 +80,7 @@ We also thought it would be a good idea to make use of Harmony's ability to extr
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/64ea73c4-0e26-4ea8-8851-7adb45e177ee)
 
-by extending this to create a dropdown list to further filter matches based on these topics for complementary matches (see image below)
+by extending this to create a dropdown list to further filter matches based on these topics for complementary matches.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/9aca41c1-354b-46c2-8fbc-b68779c18004)
 
