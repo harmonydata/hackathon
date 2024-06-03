@@ -91,6 +91,8 @@ by extending this to create a dropdown list to further filter matches based on t
 - Consider type of filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
 
 ## Comprehending Harmony: The Complete Picture
-Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 2 PDFs at a time
+Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 3 PDFs at a time
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
+
+Our hope is that with this design, the same method could be use to harmonise more than 3 PDFs at once.
