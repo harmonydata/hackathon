@@ -39,7 +39,7 @@ In this filter, we imagine that the end user can start typing a word that they w
 This is a new feature with the following categories:
 - Same: shows a similarity score between a statement in the core PDF and the similar statements in the other 2 PDFs
 - Opposites: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
-- Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense.
+- Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense. (linguistic antonymns and denials/negations)
 
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
@@ -47,8 +47,10 @@ This is a new feature with the following categories:
 Concerning the display of similar questions/statements across the PDFS, we imagine that the user will be able to sort the matches at the PDF level
 
 ## Limitations
-- Limited sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those that have not used an AI tool to harmonise data before).
+- Limited and biased sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
 - Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary.
+- Consider how it looks and optimises on mobile
+- Consider type of filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
 
 ## TL;DR
 Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 2 PDFs at a time
