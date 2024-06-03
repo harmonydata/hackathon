@@ -15,7 +15,8 @@ Using the current design of the website (see visual below), here are our thought
 ### Harmony Filters
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
-With the design above, we thought we could add ...
+With the design above, we thought we could add more filters such as:
+- ...
 
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
