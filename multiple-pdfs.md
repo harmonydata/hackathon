@@ -44,4 +44,8 @@ This is a new feature with the following categories:
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
 
-Concerning the display of similar questions/statements across the PDFS ...
+Concerning the display of similar questions/statements across the PDFS, we imagine that the user will be able to sort the matches at the PDF level
+
+## Limitations
+- Limited sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those that have not used an AI tool to harmonise data before).
+- Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary.
