@@ -9,5 +9,6 @@ Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are l
 In order to make finding similarities between 3 PDFs, we considered the approach of sorting these matches using one core PDF which is compared to the other 2 PDFs.
 
 Using the current design of the website (see visual below), here are our thoughts:
+![image](https://github.com/nlutala/hackathon/assets/87072306/d5ed60c6-8e45-4dce-8610-78eb4b18c17a)
 
 ### Harmony Filters
