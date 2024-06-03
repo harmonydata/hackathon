@@ -49,3 +49,9 @@ Concerning the display of similar questions/statements across the PDFS, we imagi
 ## Limitations
 - Limited sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those that have not used an AI tool to harmonise data before).
 - Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary.
+
+## TL;DR
+Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 2 PDFs at a time
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
+
