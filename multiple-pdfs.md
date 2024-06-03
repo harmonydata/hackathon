@@ -38,7 +38,7 @@ In this filter, we imagine that the end user can start typing a word that they w
 #### Correlation Filter
 This is a new feature with the following categories:
 - Same: shows a similarity score between a statement in the core PDF and the similar statements in the other 2 PDFs
-- Opposities: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
+- Opposites: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
 - Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense.
 
 ### Displaying Similarities on Harmony
