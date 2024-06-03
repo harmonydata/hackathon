@@ -57,18 +57,24 @@ Next to the statements/questions, there is a "see context" which we imagine woul
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/8d42db27-3154-4b00-8565-3c6470ca87a6)
 
-Under each widget, there is a "see more" button that allows the user to see the similarity scores for all the statements/questions found in PDF B and C that Harmony was able to identify as a match for the one statement/question in PDF A.
+Under each widget, there is a "read more" button that allows the user to see the similarity scores for all the statements/questions found in PDF B and C that Harmony was able to identify as a match for the one statement/question in PDF A.
 
 Below is an image of the overall design we have come up with (considering the right-hand side of the page at /app/#/model)
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/14f74612-08b1-466a-bc9f-848d8458b654)
 
 #### Same
-See section above
+This is similar to the functionality Harmony has already (the positive similarity scores). However, we were thinking that this would be better accessed through setting the Correlation filter to "Same" by the end user if needed.
 
 #### Opposites
+This is similar to the functionality Harmony has already (the negative similarity scores). However, we were thinking that this would be better accessed through setting the Correlation filter to "Opposites" by the end user if needed.
 
 #### Complementary
+This is a new feature we thought that could be added to Harmony's functionality. Here, these statements/questions may have relatively low similarity scores, but with the use of AI, we may find that there may be a relation between a statement in PDF B and C, and the statement in PDF A. 
+
+This feature could then expand on the existing functionality (see below) and add a second option to allow users to report if there is not a correlation between these ideas.
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/a4563d27-abf3-47b3-b151-a9a3a1c3bfd2)
 
 ## Limitations
 - Limited and biased sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
@@ -80,4 +86,3 @@ See section above
 Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 2 PDFs at a time
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
-
