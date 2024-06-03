@@ -29,6 +29,11 @@ We believe that the "Show within-instrument matches" could be reworded in a way 
 
 We also believe that the other functionalities provided by this widget is useful and should remain the same.
 
+Here is how we would imagine the new widget would look like:
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
+
+
 #### Sorting by the study (or PDF)
 In this feature, the end user can choose the base PDF to compare the other PDFs to. We imagine that this would be a dropdown menu showing the PDFs the user has uploaded to harmony.
 
