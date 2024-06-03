@@ -36,6 +36,10 @@ In this feature, the end user can choose the base PDF to compare the other PDFs 
 In this filter, we imagine that the end user can start typing a word that they would like to look for in the matches and be able to see matches related to that word. 
 
 #### Correlation Filter
+This is a new feature with the following categories:
+- Same: shows a similarity score between a statement in the core PDF and the similar statements in the other 2 PDFs
+- Opposities: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
+- Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense.
 
 ### Displaying Similarities on Harmony
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
