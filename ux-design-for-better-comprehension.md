@@ -4,21 +4,24 @@
 - Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), Suqin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
 
 ## Problem
-Harmony only harmonizes between 2 PDFs (of questionnaires/surveys), but we are looking into the possibility to expand this and think about how we would design how this would look like for 3 pages (and hopefully more in the future). Please be sure to scroll to the end of this README file to view an image of our design for our solution to handling more than 2 PDFs at a time (see "Comprehending Harmony: The Complete Picture").
+The Harmony tool harmonizes 2 or more data sets (i.e. studies/questionnaires/surveys) to find data matches, allowing researchers to collate similar questions across studies (in order to collate similar data). At present the tool shows a 1-to-1 match even if 3 or more studies are being harmonized. This limits a researcher's speed and efficiency in quickly comprehending which questions match up.
 
-In order to make finding similarities between 3 PDFs, we considered the approach of sorting these matches using 1 core PDF which is compared to the other 2 PDFs. For example, if we were to have 3 PDFs (labelled A, B and C respectively), we would be using A as the core PDF and finding similarities in B and C that correlate to A. Which would translate to something like this: 
+We are looking at how best the dashboard could be represented to improve comprehension and lower cognitive load when 3 (or more) studies are being harmonized. Please scroll to the end of this README file to view an image of our solution (see "Comprehending Harmony: The Complete Picture").
+
+To make comprehension easier, we considered the approach of representing matches by maintaining one main study, and having the other studies match up to the main study. For example, if we were to have 3 studies (labelled A, B and C respectively), we would be using A as the core study and finding similarities in B and C that correlate to A. The user would also have the option to change the main study to B or C if they needed to. In a simple format, it would look something like this:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/847ae79f-bc0d-4109-88a3-3861c93921ee)
 
-rather than this: 
+rather than the present condition which is this: 
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a0829795-ac31-441f-81a5-50a872589c74)
- 
-Using the current design of the website (see visual below), here are our thoughts:
+
+## Proposal
+Our proposal involves suggestions that could integrate into the existing design of the tool (see image below), encompassing Information Presentation and Retrieval with Sorting and Filtering functionalities.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/d5ed60c6-8e45-4dce-8610-78eb4b18c17a)
 
-### Harmony Filters
+### 1. Harmony Filters
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
 With the design above, we thought we could add more filters such as:
