@@ -83,16 +83,20 @@ We propose this additional filter to help users sort or filter matches to view o
 - Negative Correlations: shows a negative "similarity" score between a statements in the Base Study and an opposite statement in the corresponding studies (linguistic antonymns and negations).
 - Complementary Correlation: shows a low "similarity" score of the statements that are not similar or opposite, but where there may be an unexpected or unobvious similarity in a particular domain.
 
-##### 3b.i. Positive Correlations (Same or Very Similar Statements)
+#### 3b.i. Positive Correlations (Same or Very Similar Statements)
 This is similar to the functionality Harmony has already (the positive similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Positive".
 
-##### 3b.ii. Negative Correlations (Opposite Statements)
+#### 3b.ii. Negative Correlations (Opposite Statements)
 This is similar to the functionality Harmony has already (the negative similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Negative".
 
-##### 3b.iii. Complementary Correlations (Seemingly Low-Percentage Data Matches)
+#### 3b.iii. Complementary Correlations (Seemingly Low-Percentage Data Matches)
 To support Error Prevention and aid better matching, we proposed this feature as a result of conversations with researchers at the Hackathon.
 
-In the case where data matches have low similarity scores but are actually a match, e.g. a question asking about poor hygiene and a question asking about poor sleep could both be, by wider context, alluding to depression systems but because there is no obvious linguistic overlap, this would be a low or non-match. With the use of AI and algorithmic training by professionals in spcific domains that Harmony caters to, the system could be trained to suggested 'Complementary Matches' that are on the surface a low match. When the system does this, the reason for a complementary match should be highlighted to the user, e.g. via the 'See Context' pop-up. If it is not a match, the users should be able to report or flag it as not match to improve the system over time (see below). This suggestion has **not yet been designed in depth or tested.**
+In the case where data matches have low similarity scores but are actually a match, e.g. a question asking about poor hygiene and a question asking about poor sleep could both be, by wider context, alluding to depression systems but because there is no obvious linguistic overlap, this would be a low or non-match.
+
+With the use of AI and algorithmic training by professionals in spcific domains that Harmony caters to, the system could be trained to suggest 'Complementary Matches' that are on the surface a low match.
+
+When the system does this, the reason for a complementary match should be highlighted to the user, e.g. via the 'See Context' pop-up. If it is not a match, the users should be able to report or flag it as not match to improve the system over time (see below). This suggestion has **not yet been designed in depth or tested.**
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a4563d27-abf3-47b3-b151-a9a3a1c3bfd2)
 
