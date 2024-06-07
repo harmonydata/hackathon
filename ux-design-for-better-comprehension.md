@@ -8,7 +8,7 @@ The Harmony tool harmonizes 2 or more data sets (i.e. studies/questionnaires/sur
 
 We are looking at how best the dashboard could be represented to improve comprehension and lower cognitive load when 3 (or more) studies are being harmonized. Please scroll to the end of this README file to view an image of our solution (see "Comprehending Harmony: The Complete Picture").
 
-To make comprehension easier, we considered the approach of representing matches by maintaining one main study, and having the other studies match up to the main study. For example, if we were to have 3 studies (labelled A, B and C respectively), we would be using A as the core study and finding similarities in B and C that correlate to A. The user would also have the option to change the main study to B or C if they needed to. In a simple format, it would look something like this:
+To make comprehension easier, we considered the approach of representing matches by maintaining one base study, and having the other studies match up to the base study. For example, if we were to have 3 studies (labelled A, B and C), we would be using A as the base study and finding data matches in Studies B and C that correlate to A. In a simple diagramatic format, it would look like this:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/847ae79f-bc0d-4109-88a3-3861c93921ee)
 
@@ -17,11 +17,35 @@ rather than the present condition which is this:
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a0829795-ac31-441f-81a5-50a872589c74)
 
 ## Proposal
-Our proposal involves suggestions that could integrate into the existing design of the tool (see image below), encompassing Information Presentation and Retrieval with Sorting and Filtering functionalities.
+Our proposal involves suggestions that could integrate into the existing design of the tool (see image below), in the areas of Information Presentation and Retrieval with Sorting and Filtering functionalities.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/d5ed60c6-8e45-4dce-8610-78eb4b18c17a)
 
-### 1. Harmony Filters
+### 1. Default Display of Data Matches by Base Study
+Currently data matches are displayed as 1:1 matches in descending match-percentage order:
+![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
+
+Our design proposes that data matches should be displayed by Base Study. When a user uploads the studies they want to harmonize, the first study uploaded will be designated as the base study, e.g. Study A. The user can then choose to switch the base study to study B or C etc. if needed or preferred. This can be enabled via a drop-down menu of studies in the existing 'Options' menu on the left-hand side of the screen. In addition, a horizontal filter above the data matches on the right-hand side of the screen will be present too to remind users which study is the Base Study while they are perusing data matches. Should they wish to quickly change the Base Study, they can click through this filter too or choose to clear all sorting
+
+Matches will be displayed by Base Study Questions in **chronological** order. Every question within the Base Study will be listed as its **own widget** e.g. Study A - Question 1. To clarify further, if Study A is the Base Study and has 10 questions, then 10 widgets will be displayed in the order of Question 1 to 10.
+
+Within a particular widget e.g. for Question 1, data matches from Studies B and C will be listed underneath in descending match-percentage order, i.e. highest percentages will be shown first.
+
+Below is an image of the design we have come up with for the right-hand side of the screen at /app/#/model.
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/14f74612-08b1-466a-bc9f-848d8458b654)
+
+### 2. Error Prevention
+Harmony currently struggles with errors in data matching. Users have been asked to flag errors, providing reasonss so that this can be fed back into the system to improve its matching capability.
+
+To support Error Prevention, we have
+Next to every data match, there is a "see context" button. We propose a pop-up, displaying where in the PDF this statement appears so that the user is provided with more context and can be better informed about whether it is in fact similar to the statement from the core PDF (see image below).
+
+![image](https://github.com/nlutala/hackathon/assets/87072306/8d42db27-3154-4b00-8565-3c6470ca87a6)
+
+Under each widget, there is a "read more" button that allows the user to see the similarity scores for all the statements/questions found in PDF B and C that Harmony was able to identify as a match for the one statement/question in PDF A.
+
+### 4. Harmony Filters
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
 With the design above, we thought we could add more filters such as:
@@ -37,9 +61,6 @@ Here is how we would imagine the new widget would look like:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
 
-#### Sorting by the study (or PDF)
-In this feature, the end user can choose the base PDF to compare the other PDFs to. We imagine that this would be a dropdown menu showing the PDFs the user has uploaded to harmony.
-
 #### Search Keywords
 In this filter, we imagine that the end user can start typing a word that they would like to look for in the matches and be able to see matches related to that word. 
 
@@ -48,23 +69,6 @@ This is a new feature with the following categories:
 - Same: shows a similarity score between a statement in the core PDF and the similar statements in the other 2 PDFs
 - Opposites: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
 - Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense. (linguistic antonymns and denials/negations)
-
-### Displaying Similarities on Harmony
-![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
-
-Concerning the display of similar questions/statements across the PDFS, we imagine that the user will be able to sort the matches at the PDF level.
-
-In the image below, PDF A is taken as the core PDF for the other studies (B and C) to compare against. This is shown as its own widget with one statement/question from PDF A and a list of statements/questions from the PDFs B and C and it's similarity score.
-
-Next to the statements/questions, there is a "see context" which we imagine would open a pop-up, displaying where in the PDF this statement appears so that the user is provided with more context and can be better informed about whether it is in fact similar to the statement from the core PDF (see image below).
-
-![image](https://github.com/nlutala/hackathon/assets/87072306/8d42db27-3154-4b00-8565-3c6470ca87a6)
-
-Under each widget, there is a "read more" button that allows the user to see the similarity scores for all the statements/questions found in PDF B and C that Harmony was able to identify as a match for the one statement/question in PDF A.
-
-Below is an image of the overall design we have come up with (considering the right-hand side of the page at /app/#/model)
-
-![image](https://github.com/nlutala/hackathon/assets/87072306/14f74612-08b1-466a-bc9f-848d8458b654)
 
 #### Same
 This is similar to the functionality Harmony has already (the positive similarity scores). However, we were thinking that this would be better accessed through setting the Correlation filter to "Same" by the end user if needed.
