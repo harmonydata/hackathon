@@ -59,10 +59,11 @@ They can then either **flag the match if it is a mismatch**, or the context has 
 
 
 ### 3. Filters for Information Sorting and Retrieval
+Currently, the Options Menu on the left-hand side of the screen has a simple design as below:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
-For the Options Menu on the left-hand side, we support the existing functions (Match Threshold, Search, Show Within-Instrument Matches, Just Selected Matches, Export). However, we suggest 2 improvements:
+We support the existing functions (Match Threshold, Search, Show Within-Instrument Matches, Just Selected Matches, Export). However, we suggest 3 improvements:
 - The 'Show Within-Instrument Matches' could be **reworded to 'Show Within-Study Matches'** to be better **understood by lay-users or users across different industries**. This however would need to be tested with researchers and other users to determine if this is in fact an issue.
 - Match Threshold should have **a number box below the slider** at each end to allow a user to input a number should they have **accessibility** issues that prevent them from using a slider.
 - The Search Bar text could be **altered to 'Search Keywords'** (see 3a below) and could prompt keywords for users to search when they begin typing into the Search Bar.
