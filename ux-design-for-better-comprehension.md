@@ -1,4 +1,4 @@
-# Harmony Matching Design Documentation
+# Design Documentation: Improving Harmony's Dashboard Comprehension and Efficiency
 - Harmony competition: 03/06/2024
 - Team name: Anomalies
 - Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), Suqin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
