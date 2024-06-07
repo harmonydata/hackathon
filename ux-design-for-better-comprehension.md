@@ -111,11 +111,17 @@ To create a dropdown list to further filter 'Complementary Matches' based on the
 #### Filter Conclusion
 **In conclusion with regards to the filters, the design proposal for the widget would be as follows (specifying instructions for order and functionalities) and image is shown below:**
 **- Match Threshold**
+
 **- Sort by Study. UX Copy to indicate 'Sorted by Study (A)' to show default setting. Drop-down menu to allow users to change base studies or select 'No Base Study'**
+
 **- Seach Keywords**
+
 **- Correlation Filter. When a filter is chosen, UX Copy to indicate chosen Correlation e.g. Positive Correlations Only. Accessed via a Drop-down menu indicating 'Positive Correlations, Negative Correlations, Complementary Correlations, No Correlations'**
+
 **- 'Show Within-Study Matches'**
+
 **- Just Selected Matches**
+
 **- Export**
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
