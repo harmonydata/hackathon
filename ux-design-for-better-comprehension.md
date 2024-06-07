@@ -21,85 +21,81 @@ Our proposal involves suggestions that could integrate into the existing design 
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/d5ed60c6-8e45-4dce-8610-78eb4b18c17a)
 
-### 1. Default Display of Data Matches by Base Study
+### 1. Sorting Data Matches by Base Study (Default Display)
 Currently data matches are displayed as 1:1 matches in descending match-percentage order:
 ![image](https://github.com/nlutala/hackathon/assets/87072306/1d62d239-87a4-4668-a80f-df07bc8863da)
 
-Our design proposes that data matches should be displayed by Base Study. When a user uploads the studies they want to harmonize, the first study uploaded will be designated as the base study, e.g. Study A. The user can then choose to switch the base study to study B or C etc. if needed or preferred. This can be enabled via a drop-down menu of studies in the existing 'Options' menu on the left-hand side of the screen. In addition, a horizontal filter above the data matches on the right-hand side of the screen will be present too to remind users which study is the Base Study while they are perusing data matches. Should they wish to quickly change the Base Study, they can click through this filter too or choose to clear all sorting
+Our design proposes that data matches should be displayed by Base Study, where one study is main one and all matches from other studies are shown against it. When a user uploads the studies they want to harmonize, the first study uploaded will be designated as the base study by default, e.g. Study A. The user can then choose to switch the base study to study B or C etc. if needed or preferred. This can be enabled via a drop-down menu of studies in the existing 'Options' menu on the left-hand side of the screen. In addition, a horizontal filter above the data matches on the right-hand side of the screen will be present to remind users which study is the Base Study while they are perusing data matches. Should they wish to quickly change the Base Study, they can click through this filter too, or choose to clear all sorting to show 1:1 matches only, as per the current design. While the default Base Study Display was preferred in the user testing, specific use cases highlighted the need for users to be able to switch back to 1:1 match view.
 
-Matches will be displayed by Base Study Questions in **chronological** order. Every question within the Base Study will be listed as its **own widget** e.g. Study A - Question 1. To clarify further, if Study A is the Base Study and has 10 questions, then 10 widgets will be displayed in the order of Question 1 to 10.
+In this default view, matches will be displayed by Base Study Questions in **chronological** order. Every question within the Base Study will be listed as its **own widget** e.g. Study A - Question 1. To clarify further, if Study A is the Base Study and has 10 questions, then 10 widgets will be displayed in the order of Question 1 to 10.
 
-Within a particular widget e.g. for Question 1, data matches from Studies B and C will be listed underneath in descending match-percentage order, i.e. highest percentages will be shown first.
+Within a particular widget e.g. for Question 1, data matches from Studies B and C will be listed underneath in descending match-percentage order, i.e. highest percentages will be shown first. Only the top 5 matches will be shown in each widget, with a "read more" button at the bottom to allow the user to expand the widget and see more data matches. For example, 10 matches can be shown with a scroll bar appearing on the side to see up to a designated number of matches within the widget. This interaction when 'Read More' is clicked is **yet to be designed and tested.**
+
+Currently only 100 matches are shown per harmonization but the user can export all matches via an Excel sheet to see this in detail. We propose to maintain this function for the time being even with the new display format. This could also be tested with users to determine if this is sufficient or could be improved.
 
 Below is an image of the design we have come up with for the right-hand side of the screen at /app/#/model.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/14f74612-08b1-466a-bc9f-848d8458b654)
 
 ### 2. Error Prevention
-Harmony currently struggles with errors in data matching. Users have been asked to flag errors, providing reasonss so that this can be fed back into the system to improve its matching capability.
+Harmony currently struggles with errors in data matching. Users have been asked to flag errors, providing reasons so that this can be fed back into the system to improve its matching capability. However, this is not a perfect system yet and the task of error prevention is heavy on the user.
 
-To support Error Prevention, we have
-Next to every data match, there is a "see context" button. We propose a pop-up, displaying where in the PDF this statement appears so that the user is provided with more context and can be better informed about whether it is in fact similar to the statement from the core PDF (see image below).
+To support the user to flag mismatches easily, we propose a 'See Context' button next to every data match. When this is clicked, a pop-up window could appear on the screen, displaying side-by-side the entire question around the match and perhaps the questions before and after. This provides more context to a data match (see image below), and should the user suspect that the suggested match is a mismatch, they could quickly refer the context to check their suspicion. They can then either flag the match if it is a mismatch, or the context has clarified their concern.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/8d42db27-3154-4b00-8565-3c6470ca87a6)
 
-Under each widget, there is a "read more" button that allows the user to see the similarity scores for all the statements/questions found in PDF B and C that Harmony was able to identify as a match for the one statement/question in PDF A.
-
-### 4. Harmony Filters
+### 3. Filters for Information Sorting and Retrieval
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
-With the design above, we thought we could add more filters such as:
-- Sorting by the study (or PDF)
-- Search keywords
-- Correlation filter
+For the Options Menu on the left-hand side, we support the existing functions (Match Threshold, Search, Show Within-Instrument Matches, Just Selected Matches, Export). However, we suggest 2 improvements:
+- The 'Show Within-Instrument Matches' could be reworded to be better understood by lay-users or users across different industries. This however would need to be tested with researchers and other users to understand if this is in fact an issue.
+- The Search Bar text could be altered to 'Search Keywords' (see 3a below) and could prompt keywords for users to search when they begin typing into the Search Bar.
 
-We believe that the "Show within-instrument matches" could be reworded in a way that is more understandable to the lay-user of the web application.
-
-We also believe that the other functionalities provided by this widget is useful and should remain the same.
+We propose additional filters to aid information sorting and retrieval:
+- Correlation Filter (positive correlation, negative correlation and complementary correlation) (See 3b below)
+- Sorting Data Matches by Base Study ( alreadyexplained above)
 
 Here is how we would imagine the new widget would look like:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
 
-#### Search Keywords
-In this filter, we imagine that the end user can start typing a word that they would like to look for in the matches and be able to see matches related to that word. 
+#### 3a. Search Keywords
+It is likely that users would already be searching for keywords that are displayed at the top of screen (above the data matches). The experience would be more intuitive if the Search Bar provided keyword prompts in response to the user typing and make search faster.
 
-#### Correlation Filter
-This is a new feature with the following categories:
-- Same: shows a similarity score between a statement in the core PDF and the similar statements in the other 2 PDFs
-- Opposites: shows a "similarity" score of the statements opposite to the one in the core PDF in the other 2 PDFs
-- Complementary: shows a "similarity" score of the statements that are not similar or opposite to the core PDF at first glance, but where there may be a similarity under a different lense. (linguistic antonymns and denials/negations)
+Should the user write an entirely different word or phrase, they would still be able to search their specific input, maintaining original and flexible functionality.
 
-#### Same
-This is similar to the functionality Harmony has already (the positive similarity scores). However, we were thinking that this would be better accessed through setting the Correlation filter to "Same" by the end user if needed.
+#### 3b. Correlation Filter
+We propose this new feature to help users sort or filter matches to view only:
+- Same Matches: shows a positive "similarity" score between a statement in the Base Study and similar statements in the corresponding studies.
+- Opposite Matches: shows a negative "similarity" score of the statements opposite to the one in the Base Study and similar statements in the corresponding studies (linguistic antonymns and denials/negations).
+- Complementary: shows a low "similarity" score of the statements that are not similar or opposite, but where there may be an unexpected or unobvious similarity in a particular domain.
 
-#### Opposites
-This is similar to the functionality Harmony has already (the negative similarity scores). However, we were thinking that this would be better accessed through setting the Correlation filter to "Opposites" by the end user if needed.
+##### 3b.i. Positive Correlations (Same or Very Similar Statements)
+This is similar to the functionality Harmony has already (the positive similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Positive".
 
-#### Complementary
-This is a new feature we thought that could be added to Harmony's functionality. Here, these statements/questions may have relatively low similarity scores, but with the use of AI, we may find that there may be a relation between a statement in PDF B and C, and the statement in PDF A. 
+##### 3b.ii. Negative Correlations (Opposite Statements)
+This is similar to the functionality Harmony has already (the negative similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Negative".
 
-This feature could then expand on the existing functionality (see below) and add a second option to allow users to report if there is not a correlation between these ideas.
+##### 3b.iii. Complementary Correlations (Seemingly Low-Percentage Data Matches)
+To support Error Prevention and aid better matching, we proposed this feature as a result of conversations with researchers at the Hackathon. In the case where data matches have low similarity scores but are actually a match, e.g. a question asking about poor hygiene and a question asking about poor sleep could both be, by wider context, alluding to depression systems but because there is no obvious linguistic overlap, this would be a low or non-match. With the use of AI and algorithmic training by professionals in spcific domains that Harmony caters to, the system could be trained to suggested 'Complementary Matches' that are on the surface a low match. When the system does this, the reason for a complementary match should be highlighted to the user, e.g. via the 'See Context' pop-up. If it is not a match, the users should be able to report or flag it as not match to improve the system over time (see below). This suggestion has **not yet been designed in depth or tested.**
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a4563d27-abf3-47b3-b151-a9a3a1c3bfd2)
 
-We also thought it would be a good idea to make use of Harmony's ability to extract topics from PDFs as demonstrated below
+We also thought it would be useful to utilize Harmony's ability to extract topics from PDFs as demonstrated below:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/64ea73c4-0e26-4ea8-8851-7adb45e177ee)
 
-by extending this to create a dropdown list to further filter matches based on these topics for complementary matches.
+To create a dropdown list to further filter 'Complementary Matches' based on these keywords/topics (see image below). However, please note the image below may need to be better articulated as **this functionality has not been deeply designed yet.**
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/9aca41c1-354b-46c2-8fbc-b68779c18004)
 
 ## Limitations
-- Limited and biased sample size: we believe that more testing with psychologists and their viewpoints on this design would be beneficial (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
-- Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary.
-- Consider how it looks and optimises on mobile
-- Consider type of filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
+- Limited and biased sample size. More testing with psychologists and researchers to gain their feedback on these design changes would provide a better understanding of its utility (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
+- Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary. How this is limited needs to be well-considered. In point 1 of this proposal, this is briefly touched on.
+- Mobile Optimization
+- Consider further filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
 
 ## Comprehending Harmony: The Complete Picture
-Here is our team's diagram on the design of harmony if we could expand the functionality to handle more than 3 PDFs at a time
+Here is our team's final proposal for Harmony 2.0. We hope that with this design, we could streamline the comprehension of data matches when harmonizing studies and improve researcher speed and efficiency.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
-
-Our hope is that with this design, the same method could be use to harmonise more than 3 PDFs at once.
