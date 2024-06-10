@@ -40,7 +40,7 @@ In this default view, matches will be displayed by Base Study Questions in **chr
 
 **Within a particular widget** e.g. for Question 1, **data matches** from Studies B and C will be **listed underneath in descending match-percentage order**, i.e. highest percentages will be shown first.
 
-**Only the top 5 matches will be shown in each widget, with a 'read more' CTA** at the bottom to **allow the user to expand the widget and view more data matches**. For example, **10 matches can be shown with a scroll bar** appearing on the side to see up to a designated number of matches within the widget. **This interaction with 'Read More' is yet to be designed and tested.**
+**Only the top five matches will be shown in each widget, with a 'read more' CTA** at the bottom to **allow the user to expand the widget and view more data matches**. For example, **10 matches can be shown with a scroll bar** appearing on the side to see up to a designated number of matches within the widget. *This interaction with 'Read More' is yet to be designed and tested.*
 
 Currently only 100 matches are shown per harmonisation but the user can export all matches via an Excel sheet to see this in detail. We propose to maintain this function for the time being even with the new display format. This **could also be tested with users to determine if this is sufficient or could be improved.**
 
@@ -62,23 +62,23 @@ They can then either **flag the match if it is a mismatch**, or **see context** 
 
 
 ### 3. Filters for Information Sorting and Retrieval
-Currently, the Options Menu on the left-hand side of the screen has a simple design as below:
+Currently, the Options Menu on the left side of the screen has a simple design as below:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/f7f7aba3-2885-42eb-9c2d-afbfeec4a619)
 
-We support the existing functions (Match Threshold, Search, Show Within-Instrument Matches, Just Selected Matches, Export). However, we suggest 3 improvements:
-- The 'Show Within-Instrument Matches' could be **reworded to 'Show Within-Study Matches'** to be better **understood by lay-users or users across different industries**. This however would need to be tested with researchers and other users to determine if this is in fact an issue.
-- Match Threshold should have **a number box below the slider** at each end to allow a user to input a number should they have **accessibility** issues that prevent them from using a slider.
-- The Search Bar text could be **altered to 'Search Keywords'** (see 3a below) and could prompt keywords for users to search when they begin typing into the Search Bar.
+In addition to the existing functions: Match Threshold, Search, Show Within-Instrument Matches, Just Selected Matches, Export, we suggest three improvements:
+- 'Show Within-Instrument Matches' could be **reworded to 'Show Within-Study Matches'** to **avoid jargon and allow easier understanding for a wider group of users**. *This has yet to be tested with potential users to determine if this is in fact an issue.*
+- Match Threshold should have **a value input box below the slider** at each end to allow a user to specify a number for their required study. This also improves **accessibility** and can prevent errors or slips from using a slider.
+- Consider adjusting the Search Bar text to **include 'Search Keywords'** (see 3a below) and prompt keywords for users to select when typing in the Search Bar.
 
-We propose additional filters to aid information sorting and retrieval:
+We propose **two additional filters** to aid information sorting and retrieval:
 - Correlation Filter (positive correlation, negative correlation and complementary correlation) (See 3b below)
-- Sorting Data Matches by Base Study (already explained above in Point 1)
+- Sorting Data Matches by Base Study (explained above in Point 1)
 
 #### 3a. Search Keywords
-It is likely that users would already be searching for keywords that are displayed at the top of screen above the data matches, which are keywords or topics extracted from uploaded studies. To make the experience more intuitive, the Search Bar should **provide keyword prompts in response to the user typing**, thus making search **faster**.
+The Harmony tool generates a keyword cloud of themes when two studies are harmonised. It is likely that users would use the keywords generated in that section (above matches) in their searches. To make the experience more intuitive, the Search Bar should **provide keyword prompts in response to the user typing**, thus making search **faster**.
 
-Should the user write an entirely different word or phrase, they would **still be able to search their specific input**, maintaining original and **flexible** functionality.
+Should the user write an entirely different word or phrase, it is recommended that they could still be able to search for their specific input, **maintaining original and flexible functionality.**
 
 #### 3b. Correlation Filter
 We propose this additional filter to help users sort or filter matches to view only:
@@ -87,58 +87,51 @@ We propose this additional filter to help users sort or filter matches to view o
 - Complementary Correlation: shows a low "similarity" score of the statements that are not similar or opposite, but where there may be an unexpected or unobvious similarity in a particular domain.
 
 #### 3b.i. Positive Correlations (Same or Very Similar Statements)
-This is similar to the functionality Harmony has already (the positive similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Positive".
+This is similar to the functionality Harmony has already implemented (positive similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Positive".
 
 #### 3b.ii. Negative Correlations (Opposite Statements)
-This is similar to the functionality Harmony has already (the negative similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Negative".
+This is similar to the functionality Harmony has already implemented (negative similarity scores). To view only these matches, the user could adjust the setting in the Correlation filter to "Negative".
 
 #### 3b.iii. Complementary Correlations (Seemingly Low-Percentage Data Matches)
-To support Error Prevention and aid better matching, we proposed this feature as a result of conversations with researchers at the Hackathon.
+To support Error Prevention and aid better matching, we proposed this feature as a result of conversations with psychologists from Harmony at the Hackathon.
 
-In the case where data matches have low similarity scores but are actually a match, e.g. a question asking about poor hygiene and a question asking about poor sleep could both be, by wider context, alluding to depression systems but because there is no obvious linguistic overlap, this would be a low or non-match.
+It is possible that the data matches could have low similarity scores but are actually related through other dimensions. For example, a question about poor hygiene and a question about poor sleep from another study could both allude to depression symptoms, but the lack of obvious linguistic overlap can result in a low or non-match percentage score.
 
-With the use of AI and algorithmic training by professionals in spcific domains that Harmony caters to, the system could be trained to suggest 'Complementary Matches' that are on the surface a low match.
+With the use of AI and algorithmic training by professionals in specific domains that Harmony caters to, the system could be trained to suggest 'Complementary Matches'.
 
-When the system does this, the reason for a complementary match should be highlighted to the user, e.g. via the 'See Context' pop-up. If it is not a match, the users should be able to report or flag it as not match to improve the system over time (see below). This suggestion has **not yet been designed in depth or tested.**
+When the system makes a complementary match, the reason should be highlighted to the user through a 'See Context' pop-up (see Point 2). If the match is incorrect, users should be able to report or flag it to help improve the system over time (see below). *This suggestion has not yet been fully designed or tested.*
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/a4563d27-abf3-47b3-b151-a9a3a1c3bfd2)
 
-We also thought it would be useful to utilize Harmony's ability to extract topics from uploaded studies as demonstrated below:
+We also thought it would be useful to utilise Harmony's ability to extract topics from uploaded studies as demonstrated below:
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/64ea73c4-0e26-4ea8-8851-7adb45e177ee)
 
-To create a dropdown list to further filter 'Complementary Matches' based on these keywords/topics (see image below). However, please note the image below may need to be better articulated as **this functionality has not been deeply designed yet.**
+To create a dropdown list to further filter 'Complementary Matches' based on these keywords/topics (see image below). However, please note the image below may need to be better articulated as *this functionality has not been deeply designed yet.*
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/9aca41c1-354b-46c2-8fbc-b68779c18004)
 
-#### Filter Conclusion
-**In conclusion with regards to the filters, the design proposal for the widget would be as follows (specifying instructions for order and functionalities) and image is shown below:**
-**- Match Threshold**
-
-**- Sort by Study. UX Copy to indicate 'Sorted by Study (A)' to show default setting. Drop-down menu to allow users to change base studies or select 'No Base Study'**
-
-**- Seach Keywords**
-
-**- Correlation Filter. When a filter is chosen, UX Copy to indicate chosen Correlation e.g. Positive Correlations Only. Accessed via a Drop-down menu indicating 'Positive Correlations, Negative Correlations, Complementary Correlations, No Correlations'**
-
-**- 'Show Within-Study Matches'**
-
-**- Just Selected Matches**
-
-**- Export**
+**In conclusion, our design proposal for the filter widgets would be as follows (specifying instructions for order and functionalities):**
+- Match Threshold
+- Sort by Study. UX Copy to indicate 'Sorted by Study (A)' to show default setting. Drop-down menu to allow users to change base studies or select 'No Base Study'
+- Seach Keywords
+- Correlation Filter. When a filter is chosen, UX Copy to indicate chosen Correlation e.g. Positive Correlations Only. Accessed via a Drop-down menu indicating 'Positive Correlations, Negative Correlations, Complementary Correlations, No Correlations'
+- 'Show Within-Study Matches'
+- Just Selected Matches
+- Export
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/e5b9d8c3-4f2c-4c50-a06a-2d01e3d4a894)
 
 ## Conclusion: Comprehending Harmony
-Here is our team's final proposal for Harmony 2.0. We hope that with this design, we could improve the comprehension of data matches when harmonizing studies, improve error prevention and match accuracy, and improve researcher speed and efficiency.
+In conclusion, here is our team's final proposal for Harmony. With this design, we aim to enhance the understanding of data matches during study harmonization, prevent errors, increase match accuracy, and boost researcher speed and efficiency.
 
 ![image](https://github.com/nlutala/hackathon/assets/87072306/de29d863-e978-4e57-b53d-a9385a559cff)
 
 ## Limitations and Further Exploration
-Limitations include:
-- Limited and biased sample size. More testing with psychologists and researchers to gain their feedback on these design changes would provide a better understanding of its utility (especially those not affiliated with Harmony and have not used an AI tool to harmonise data before).
-- Due to the new design, there could potentially be a lot of information shown on a page, meaning that users would have to scroll on the page more than necessary. How this is limited needs to be well-considered. In point 1 of this proposal, this is briefly touched on.
+Given the constraints of the hackathon, the limitations include:
+- Limited and biased sample size. More testing with psychologists and a wider group of researchers can provide more detailed feedback on these design changes and a better understanding of its utility, especially those who are not affiliated with Harmony and/or new to AI tools. It would also be beneficial to test this with users who are relatively new or juniors in the field. 
+- As this is a new design, there is a potential for information overload to occur as this is a information-heavy product. More detail shown could lead to more users scrolling on the page than necessary. How this is limited needs to be well-considered. This has been briefly touched on in point 1 of this proposal.
 
-Further exploration would be needed for:
-- Mobile Optimization
-- Considering further filters that users may require, e.g. sorting  by recency/date, sorting by region etc.
+**Further exploration would be needed for:**
+- Mobile Optimisation
+- Considering further filters that users may require, e.g. sorting  by recency or date, sorting by region etc.
