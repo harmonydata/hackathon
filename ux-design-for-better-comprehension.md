@@ -1,13 +1,16 @@
 # Design Documentation: Improving Harmony's Dashboard Comprehension and Efficiency
-- Harmony competition: 03/06/2024
+- Harmony Hackathon competition: 03/06/2024
 - Team name: Anomalies
-- Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), Suqin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
-- Compiled by Nathan Lutala on 03/06/2024; **Revised** by Shafna AbdulMajeed on 07/06/2024 (Revision 1).
+- Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), SuQin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
+- Compiled by Nathan Lutala on 03/06/2024; **Revised** by Shafna AbdulMajeed on 07/06/2024 (Revision 1); **Revised** by SuQin Chua on 10/06/2024 (Revision 2);
+
+## Context
+The Harmony tool uses Natural Language Processing (NLP) for retrospective harmonisation of questionnaire items. It is currently capable of only harmonising two studies (i.e. questionnaires, surveys) to find matches using 1:1 comparison logic. The benefits of this tool allows researchers to collate similar questions across studies to help collate similar data. 
 
 ## Problem
-The Harmony tool harmonizes 2 or more data sets (i.e. studies/questionnaires/surveys) to find data matches, allowing researchers to collate similar questions across studies (in order to help collate similar data). At present the tool shows a 1:1 match which is not a big issue when 2 studies are being harmonized. However when 3 or more studies are being harmonized, 1:1 matching limits a researcher's speed and efficiency in quickly comprehending which questions match up across studies because the researcher has to manually match questions to questions.
+Through conversations with Harmony team psychologists, we identified a user need for harmonising three or more sets of studies to optimise a researcher's (user's) speed and efficiency. Enabling greater comparison between different studies will allow researchers to quickly determine which questions align across studies and their respective similarity scores. The current 1:1 matching process, which still requires a degree of manual matching, limits their speed and efficiency.
 
-We are looking at how best the dashboard could be represented to improve comprehension and lower cognitive load when 3 (or more) studies are being harmonized. Please scroll to the end of this README file to view an image of our solution (see "Comprehending Harmony: The Complete Picture").
+In this investigation, we decided to look at how we can best visualise the Harmony dashboard to improve comprehension and lower cognitive load when three studies are harmonised. Please scroll to the end of this README file to view an image of our solution (see "Comprehending Harmony: The Complete Picture").
 
 To make comprehension easier, we considered the approach of representing matches by maintaining one base study, and having the other studies correspond or match up to the base study. Instead of 1:1 matching, this would be 1:x matching. For example, if we were to have 3 studies (labelled A, B and C), we would be using A as the base study and finding data matches in Studies B and C that correlate to A. In a simple diagramatic format, it would look like this:
 
