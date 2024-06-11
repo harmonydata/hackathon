@@ -1,4 +1,4 @@
-# Design Documentation: Improving Harmony's Dashboard for Improved Comprehension and Efficiency
+# Design Documentation: Improving Harmony's Dashboard for Better Comprehension and Efficiency
 - Harmony Hackathon competition: 03/06/2024
 - Team name: Anomalies
 - Team members: Shafna AbdulMajeed (https://www.linkedin.com/in/shafna-abdulmajeed-1790ba141/), SuQin Chua (https://www.linkedin.com/in/chuasuqin/), Nathan Lutala (https://www.linkedin.com/in/nathanlutala/)
