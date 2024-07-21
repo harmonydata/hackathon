@@ -29,6 +29,6 @@ Images should have appropriate alt text; decorative images should have empty alt
 #### 2.2 Time-based Media
 Audio/Video should have captions and transcripts. Video content should have audio descriptions (AD)
 #### 2.3 Adaptable
-Content should be structured using proper headings <h1> to <h6>. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
+Content should be structured using proper headings h1 to h6. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
 #### 2.4 Distinguishable
 Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
