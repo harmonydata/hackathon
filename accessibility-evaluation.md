@@ -26,16 +26,24 @@ Pages Audited:
 ### Perceivable
 #### 2.1 Text Alternatives
 Images should have appropriate alt text; decorative images should have empty alt attributes.
-Severity:
-
-Compliance:
-
+- Compliance: 
+- Severity: 
+- Comment:
 #### 2.2 Time-based Media
 Audio/Video should have captions and transcripts. Video content should have audio descriptions (AD)
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### 2.3 Adaptable
 Content should be structured using proper headings h1 to h6. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### 2.4 Distinguishable
 Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 
 ### Operable
 #### Keyboard Accessible
@@ -45,34 +53,43 @@ Ensure all interactive elements (links, buttons, form controls) are keyboard acc
 - Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
 #### Enough Time
 Check for adjustable or extendable time limits.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### Seizures and Physical Reactions
 Ensure content does not contain flashes that could cause seizures (no more than 3 flashes per second).
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### Navigable
 Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 
 ### Understandable
 #### Readable
-Language:
-Ensure the language of the page is declared in the HTML.
-Reading Level:
-Check for content that is readable and understandable for the intended audience.
+Ensure the language of the page is declared in the HTML and content that is readable and understandable for the intended audience.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### Predictable
-Consistency:
-Ensure navigation and interactive elements are consistent throughout the site.
-Unexpected Changes:
-Verify that changes in context (e.g., new pages opening) are predictable and notified.
+Ensure navigation and interactive elements are consistent throughout the site. Also ensure changes in context, e.g. opening in new window, are precitable and notified to the user.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 #### Input Assistance
-Forms:
-Ensure form elements have associated labels.
-Check for clear instructions and error messages.
-Verify that input errors are identified and suggestions for correction are provided.
+Ensure form elements have associated labels.Check for clear instructions and error messages, and suggestions for correction are provided.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
+
 ### Robust
 #### Compatible
-Assistive Technologies:
-Verify that the website is compatible with various assistive technologies (e.g., screen readers, speech recognition software).
-HTML Validation:
-Ensure HTML/CSS is valid and follows best practices.
-
+Ensure compatibility with various assistive technologies like screen readers or voice recognition software. Also ensure HTML/CSS is valid and follows best practices.
+- Compliance: Fail
+- Severity: Medium
+- Comment:
 ## Recommendations
 Summary of Findings:
 
