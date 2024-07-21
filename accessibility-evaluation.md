@@ -28,18 +28,12 @@ Pages Audited:
 Images should have appropriate alt text; decorative images should have empty alt attributes.
 
 #### 2.2 Time-based Media
-Audio/Video:
-Ensure captions are provided for all audio content.
-Check for transcripts for audio and video.
-Ensure video content has audio descriptions.
-2.3 Adaptable
-Content Structure:
-Ensure content is structured using proper headings (<h1> to <h6>).
-Check for the correct use of landmarks (e.g., header, nav, main, footer).
-2.4 Distinguishable
-Color Contrast:
-Verify color contrast ratios meet WCAG 2.1 guidelines (4.5:1 for normal text, 3:1 for large text).
-Text Resizing:
-Ensure text can be resized up to 200% without loss of content or functionality.
+Audio/Video should have captions and transcripts. Video content should have audio descriptions (AD)
+
+#### 2.3 Adaptable
+Content should be structured using proper headings <h1> to <h6>. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
+#### 2.4 Distinguishable
+Color Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
+
 
 
