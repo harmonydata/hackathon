@@ -45,7 +45,7 @@ Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should
 Ensure all interactive elements (links, buttons, form controls) are keyboard accessible and focus indicators are visible.
 - Compliance: Fail
 - Severity: Medium
-- Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
+- Comment: Keyboard does not tab to the Upload function, My Harmony and Select All - which are key functionalities of the tool.
 #### 3.2 Enough Time
 Check for adjustable or extendable time limits.
 - Compliance: N/A
@@ -56,15 +56,13 @@ Ensure content does not contain flashes that could cause seizures (no more than 
 #### 3.4 Navigable
 Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
 - Compliance: Fail
-- Severity: Medium
+- Severity: High
 - Comment: No skip links present. It will be difficult for a user who relies on keyboard operations to navigate the results page especially when a lot of items are present and/or a lot of scrolling is required. There is also a lack of page titles to describe each section.
 
 ### Understandable
 #### 4.1 Readable
 Ensure the language of the page is declared in the HTML and content that is readable and understandable for the intended audience.
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: Pass
 #### 4.2 Predictable
 Ensure navigation and interactive elements are consistent throughout the site. Also ensure changes in context, e.g. opening in new window, are precitable and notified to the user.
 - Compliance: Fail
