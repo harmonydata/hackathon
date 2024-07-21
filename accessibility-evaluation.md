@@ -32,3 +32,15 @@ Audio/Video should have captions and transcripts. Video content should have audi
 Content should be structured using proper headings h1 to h6. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
 #### 2.4 Distinguishable
 Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
+
+### Operable
+#### Keyboard Accessible
+Ensure all interactive elements (links, buttons, form controls) are keyboard accessible and focus indicators are visible.
+#### Enough Time
+Check for adjustable or extendable time limits.
+#### Seizures and Physical Reactions
+Ensure content does not contain flashes that could cause seizures (no more than 3 flashes per second).
+#### Navigable
+Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
+
+### Understandable
