@@ -26,14 +26,11 @@ Pages Audited:
 ### Perceivable
 #### 2.1 Text Alternatives
 Images should have appropriate alt text; decorative images should have empty alt attributes.
-- Compliance: 
-- Severity: 
-- Comment:
+- Compliance: Pass
 #### 2.2 Time-based Media
 Audio/Video should have captions and transcripts. Video content should have audio descriptions (AD)
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: Pass
+- Comment: Captions are currently auto-generated and may show some inaccuracies. Consider uploading your own captions for any videos in the future.
 #### 2.3 Adaptable
 Content should be structured using proper headings h1 to h6. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
 - Compliance: Fail
