@@ -65,29 +65,19 @@ Ensure the language of the page is declared in the HTML and content that is read
 - Compliance: Pass
 #### 4.2 Predictable
 Ensure navigation and interactive elements are consistent throughout the site. Also ensure changes in context, e.g. opening in new window, are precitable and notified to the user.
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: Pass
 #### 4.3 Input Assistance
-Ensure form elements have associated labels.Check for clear instructions and error messages, and suggestions for correction are provided.
+Ensure form elements have associated labels. Check for clear instructions and error messages, and suggestions for correction are provided.
 - Compliance: Fail
-- Severity: Medium
-- Comment:
+- Severity: High
+- Comment: The tool allows for more than 2 studies to be added, but no error messages provided. Consider 
 
 ### Robust
 #### 5.1 Compatible
 Ensure compatibility with various assistive technologies like screen readers or voice recognition software. Also ensure HTML/CSS is valid and follows best practices.
 - Compliance: Fail
-- Severity: Medium
-- Comment:
+- Severity: High
+- Comment: Elements in the questionnaire drop down are not marked up properly. Text read out by screen reader is different from what is shown on the screen and has additional words like "scan collapsed box."
+
 ## Recommendations
-Summary of Findings:
-
-Areas of Improvement:
-
-Immediate Actions:
-
-Long-term Strategies:
-
-#### Compliance Level
-Overall Compliance Level Achieved:
+Overall, this tool could improve its accessibility by ensuring there is appropriate headings, instructions, error prevention, appropriate alt text markup and skip links. Besides keyboard accessibility, this tool should also be made accessible with screen readers.
