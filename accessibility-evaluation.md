@@ -24,11 +24,10 @@ Pages Audited:
 
 ## Accessibility audit
 ### Perceivable
-2.1 Text Alternatives
-Images:
-Verify that all images have appropriate alt text.
-Check for decorative images using empty alt attributes.
-2.2 Time-based Media
+#### 2.1 Text Alternatives
+Images should have appropriate alt text; decorative images should have empty alt attributes.
+
+#### 2.2 Time-based Media
 Audio/Video:
 Ensure captions are provided for all audio content.
 Check for transcripts for audio and video.
