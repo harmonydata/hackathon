@@ -26,6 +26,10 @@ Pages Audited:
 ### Perceivable
 #### 2.1 Text Alternatives
 Images should have appropriate alt text; decorative images should have empty alt attributes.
+Severity:
+
+Compliance:
+
 #### 2.2 Time-based Media
 Audio/Video should have captions and transcripts. Video content should have audio descriptions (AD)
 #### 2.3 Adaptable
@@ -36,6 +40,11 @@ Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should
 ### Operable
 #### Keyboard Accessible
 Ensure all interactive elements (links, buttons, form controls) are keyboard accessible and focus indicators are visible.
+Severity:
+
+Compliance: Fail
+
+Comment: Keyboard does not tab to My Harmony and Select All
 #### Enough Time
 Check for adjustable or extendable time limits.
 #### Seizures and Physical Reactions
