@@ -21,3 +21,26 @@ Tools used: Screen reader (Narrator, on Windows)
 Pages Audited:
 1. https://harmonydata.ac.uk/app/#/
 2. https://harmonydata.ac.uk/app/#/model
+
+## Accessibility audit
+### Perceivable
+2.1 Text Alternatives
+Images:
+Verify that all images have appropriate alt text.
+Check for decorative images using empty alt attributes.
+2.2 Time-based Media
+Audio/Video:
+Ensure captions are provided for all audio content.
+Check for transcripts for audio and video.
+Ensure video content has audio descriptions.
+2.3 Adaptable
+Content Structure:
+Ensure content is structured using proper headings (<h1> to <h6>).
+Check for the correct use of landmarks (e.g., header, nav, main, footer).
+2.4 Distinguishable
+Color Contrast:
+Verify color contrast ratios meet WCAG 2.1 guidelines (4.5:1 for normal text, 3:1 for large text).
+Text Resizing:
+Ensure text can be resized up to 200% without loss of content or functionality.
+
+
