@@ -48,19 +48,16 @@ Ensure all interactive elements (links, buttons, form controls) are keyboard acc
 - Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
 #### 3.2 Enough Time
 Check for adjustable or extendable time limits.
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: N/A
 #### 3.3 Seizures and Physical Reactions
 Ensure content does not contain flashes that could cause seizures (no more than 3 flashes per second).
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: Pass
+
 #### 3.4 Navigable
 Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
 - Compliance: Fail
 - Severity: Medium
-- Comment:
+- Comment: No skip links present. It will be difficult for a user who relies on keyboard operations to navigate the results page especially when a lot of items are present and/or a lot of scrolling is required. There is also a lack of page titles to describe each section.
 
 ### Understandable
 #### 4.1 Readable
