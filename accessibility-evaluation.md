@@ -40,12 +40,9 @@ Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should
 ### Operable
 #### Keyboard Accessible
 Ensure all interactive elements (links, buttons, form controls) are keyboard accessible and focus indicators are visible.
-
-Compliance: Fail
-
-Severity: Medium
-
-Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
+- Compliance: Fail
+- Severity: Medium
+- Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
 #### Enough Time
 Check for adjustable or extendable time limits.
 #### Seizures and Physical Reactions
