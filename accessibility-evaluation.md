@@ -80,4 +80,4 @@ Ensure compatibility with various assistive technologies like screen readers or 
 - Comment: Elements in the questionnaire drop down are not marked up properly. Text read out by screen reader is different from what is shown on the screen and has additional words like "scan collapsed box" or "button" without giving context what the button does. This will be difficult for users who have low vision, partial sightedness or blindness to navigate the tool.
 
 ## Recommendations
-Overall, this tool could improve its accessibility by ensuring there is appropriate headings, instructions, error prevention, appropriate alt text markup and skip links. Besides keyboard accessibility, this tool should also be made accessible with screen readers.
+Overall, this tool could improve its accessibility by ensuring there is appropriate headings, instructions, error prevention, appropriate alt text markup and skip links. Besides keyboard accessibility, this tool should also be made accessible with assistive technologies such as screen readers.
