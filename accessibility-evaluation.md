@@ -70,7 +70,7 @@ Ensure navigation and interactive elements are consistent throughout the site. A
 Ensure form elements have associated labels. Check for clear instructions and error messages, and suggestions for correction are provided.
 - Compliance: Fail
 - Severity: High
-- Comment: The tool allows for more than 2 studies to be added, but no error messages provided. Consider 
+- Comment: The tool allows for more than 2 studies to be added, but no error messages provided. Consider indicating this on the pages or relevant sections, and errors in red text.
 
 ### Robust
 #### 5.1 Compatible
