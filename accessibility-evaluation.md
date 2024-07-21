@@ -10,3 +10,5 @@ There are four design principles:
 2. Operable
 3. Understandable
 4. Robust
+
+The WCAG 2.2 design principles are supported by 13 guidelines. Each of these is broken down into specific requirements (or ‘success criteria’) that your service needs to meet. To ensure your design, code and cnotent comply with WCAG, you need to conduct regular accessibility testing. To achieve global accessibility standards, you must achieve a standard of Level AA (passing Level A too).
