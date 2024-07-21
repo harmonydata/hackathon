@@ -43,46 +43,46 @@ Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should
 - Comment:
 
 ### Operable
-#### Keyboard Accessible
+#### 3.1 Keyboard Accessible
 Ensure all interactive elements (links, buttons, form controls) are keyboard accessible and focus indicators are visible.
 - Compliance: Fail
 - Severity: Medium
 - Comment: Keyboard does not tab to My Harmony and Select All - which are key functionalities of the tool.
-#### Enough Time
+#### 3.2 Enough Time
 Check for adjustable or extendable time limits.
 - Compliance: Fail
 - Severity: Medium
 - Comment:
-#### Seizures and Physical Reactions
+#### 3.3 Seizures and Physical Reactions
 Ensure content does not contain flashes that could cause seizures (no more than 3 flashes per second).
 - Compliance: Fail
 - Severity: Medium
 - Comment:
-#### Navigable
+#### 3.4 Navigable
 Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
 - Compliance: Fail
 - Severity: Medium
 - Comment:
 
 ### Understandable
-#### Readable
+#### 4.1 Readable
 Ensure the language of the page is declared in the HTML and content that is readable and understandable for the intended audience.
 - Compliance: Fail
 - Severity: Medium
 - Comment:
-#### Predictable
+#### 4.2 Predictable
 Ensure navigation and interactive elements are consistent throughout the site. Also ensure changes in context, e.g. opening in new window, are precitable and notified to the user.
 - Compliance: Fail
 - Severity: Medium
 - Comment:
-#### Input Assistance
+#### 4.3 Input Assistance
 Ensure form elements have associated labels.Check for clear instructions and error messages, and suggestions for correction are provided.
 - Compliance: Fail
 - Severity: Medium
 - Comment:
 
 ### Robust
-#### Compatible
+#### 5.1 Compatible
 Ensure compatibility with various assistive technologies like screen readers or voice recognition software. Also ensure HTML/CSS is valid and follows best practices.
 - Compliance: Fail
 - Severity: Medium
