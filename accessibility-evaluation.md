@@ -35,7 +35,7 @@ Audio/Video should have captions and transcripts. Video content should have audi
 Content should be structured using proper headings h1 to h6. Landmarks should also be marked up correctly, e.g. header, nav, main, footer.
 - Compliance: Fail
 - Severity: Medium
-- Comment:
+- Comment: Consider providing headings on the right-hand side of the dashboard to inform users what the content is showing and what functionalities are available with appropriate markup.
 #### 2.4 Distinguishable
 Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
 - Compliance: Fail
