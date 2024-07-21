@@ -44,3 +44,36 @@ Ensure content does not contain flashes that could cause seizures (no more than 
 Navigation: Ensure navigation order is logical and consistent; include skip links. Ensure all pages have descriptive titles and every link text is descriptive and meaningful.
 
 ### Understandable
+#### Readable
+Language:
+Ensure the language of the page is declared in the HTML.
+Reading Level:
+Check for content that is readable and understandable for the intended audience.
+#### Predictable
+Consistency:
+Ensure navigation and interactive elements are consistent throughout the site.
+Unexpected Changes:
+Verify that changes in context (e.g., new pages opening) are predictable and notified.
+#### Input Assistance
+Forms:
+Ensure form elements have associated labels.
+Check for clear instructions and error messages.
+Verify that input errors are identified and suggestions for correction are provided.
+### Robust
+#### Compatible
+Assistive Technologies:
+Verify that the website is compatible with various assistive technologies (e.g., screen readers, speech recognition software).
+HTML Validation:
+Ensure HTML/CSS is valid and follows best practices.
+
+## Recommendations
+Summary of Findings:
+
+Areas of Improvement:
+
+Immediate Actions:
+
+Long-term Strategies:
+
+#### Compliance Level
+Overall Compliance Level Achieved:
