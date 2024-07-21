@@ -38,9 +38,7 @@ Content should be structured using proper headings h1 to h6. Landmarks should al
 - Comment: Consider providing headings on the right-hand side of the dashboard to inform users what the content is showing and what functionalities are available with appropriate markup.
 #### 2.4 Distinguishable
 Colour Contrast should be 4.5:1 for normal text, 3:1 for large text. Text should be able to be resized up to 200% without loss of content or functionality.
-- Compliance: Fail
-- Severity: Medium
-- Comment:
+- Compliance: Pass
 
 ### Operable
 #### 3.1 Keyboard Accessible
