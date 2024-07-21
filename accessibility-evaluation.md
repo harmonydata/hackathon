@@ -11,5 +11,5 @@ There are four design principles:
 3. Understandable
 4. Robust
 
-There are 13 guidelines in WCAG 2.2. Each of these is broken down into specific requirements (or ‘success criteria’) that your service needs to meet. To ensure your design, code and content comply with WCAG, you need to conduct regular accessibility testing with assitive technologies and a standard of Level AA (passing Level A too).
+There are 13 guidelines in WCAG 2.2. Each of these is broken down into specific requirements (or ‘success criteria’) that your service needs to meet. To ensure your design, code and content comply with WCAG, you should conduct regular accessibility testing with assitive technologies and meet a standard of Level AA (passing Level A too).
 
