@@ -1,4 +1,4 @@
-# Accessibility documentation: Harmony tool
+# Accessibility evaluation documentation: Harmony tool
 - Evaluation: 21 July 2024
 - Done by Suqin Chua (https://www.linkedin.com/in/chuasuqin/)
 
