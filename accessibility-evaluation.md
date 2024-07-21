@@ -16,8 +16,10 @@ There are 13 guidelines in WCAG 2.2. Each of these is broken down into specific 
 ## General Information
 URL:
 Pages Audited:
-Standards Applied: (e.g., WCAG 2.1, Section 508)
-Tools Used: (e.g., WAVE, Axe, screen readers)
+1. https://harmonydata.ac.uk/app/#/
+2. https://harmonydata.ac.uk/app/#/model
+Standards Applied: WCAG 2.2
+Tools Used: Narrator (Windows)
 
 ## Accessibility audit
 3. Perceivable
