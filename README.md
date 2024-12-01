@@ -5,7 +5,7 @@
 * [Developer guide](https://harmonydata.ac.uk/developer-guide/)
 * [Guide on contributing to Harmony](https://harmonydata.ac.uk/contributing-to-harmony/)
 
-We are planning a hackathon in London on 3 June. [You can sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)!
+We are planning an [AI hackathon](https://fastdatascience.com/ai-in-research/ai-hackathon-machine-learning-hackathon/) in London on 3 June. [You can sign up on Eventbrite](https://www.eventbrite.com/e/harmony-hackathon-tickets-887795278577)!
 
 In the meantime, feel free to join our [community](https://harmonydata.ac.uk/community) on Discord, check out the [ideas list](/ideas) and try our [Kaggle competition](https://harmonydata.ac.uk//kaggle)!
 
